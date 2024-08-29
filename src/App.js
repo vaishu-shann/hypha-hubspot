@@ -1,14 +1,19 @@
 import React from 'react'
 import "./styles/global.css"
 import Navbar from './components/Navbar/navbar';
-
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
 
-<>
-<Navbar/>
-</>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        
+      </Routes>
+    </>
   );
 }
 
