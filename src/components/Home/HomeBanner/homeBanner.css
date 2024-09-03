@@ -13,12 +13,13 @@
   max-width: 50%;
 }
 .h-b-left  .sub-head{
-  color: #253342;
+  color: #0B3954;
   line-height: 1.2 !important;
+  font-weight: 600;
 }
 
 .changing-head{
-  color: #1d184c;
+  color: #000;
   font-family: sofia-pro, sans-serif;
   font-size: 48px;
   font-style: normal;
@@ -43,8 +44,8 @@
   cursor: pointer;
 }
 .home-illustration{
-  width: 100%;
-  height: 500px;
+  width: 95%;
+  height: auto;
 
 }
 .btn:hover {
@@ -54,7 +55,7 @@
 .light::before {
   content: "";
   position: absolute;
-  background-image: conic-gradient(    transparent 10deg,   rgb(182, 0, 113,0.7),    90deg,    transparent 170deg  );
+  background-image: conic-gradient(    transparent 10deg,   rgb(11, 57, 84),    90deg,    transparent 170deg  );
   width: 200%;
   height: 500%;
   animation: rotate 3s linear infinite;
@@ -78,10 +79,10 @@
   align-items: center;
   width: 170px;
   height: 40px;
-  background: rgb(255, 178, 0,0.5);
+  background: rgb(200, 29, 37);
   backdrop-filter: blur(35px);
   -webkit-backdrop-filter: blur(35px);
-  color: #253342;
+  color: #fff;
   font-size: clamp(0.9rem, 3vw, 1.2rem);
   border-radius: 5px;
 }

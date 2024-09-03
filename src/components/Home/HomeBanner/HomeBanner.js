@@ -1,6 +1,6 @@
 import React from 'react'
 import "./homeBanner.css"
-import HomeVector from "../../../assets/images/IllustrationGroup-hero.svg"
+import HomeVector from "../../../assets/images/IllustrationGroup-hero.png"
 
 
 const HomeBanner = () => {
@@ -14,7 +14,6 @@ const HomeBanner = () => {
                 </div>
                 <div className='h-b-right'>
                    <img src={HomeVector} alt='home-illustration' className='home-illustration'/>
-
                 </div>
             </div>
         </>

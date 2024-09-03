@@ -17,7 +17,7 @@
   }
   
   .logo img {
-    height: 40px;
+    height: 60px;
     margin-right: 10px;
   }
   
@@ -36,16 +36,17 @@
     text-decoration: none;
     color: #000;
     font-size: 16px;
+    font-weight: 500;
     padding: 8px 12px;
     transition: color 0.3s ease;
   }
   
   .nav-links a:hover {
-    color: #0099ff;
+    color: #087E8B;
   }
   
   .contact-btn {
-    background-color: #FFB200;
+    background-color: #C81D25;
     color: white!important;
     padding: 10px 20px;
     text-decoration: none;
@@ -54,7 +55,7 @@
   }
   
   .contact-btn:hover {
-    background-color: rgba(255, 179, 0, 0.7);
+    background-color:#c81d26c9;
   }
   
   .mobile-menu-icon {
