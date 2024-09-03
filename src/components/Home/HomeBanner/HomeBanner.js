@@ -13,7 +13,7 @@ const HomeBanner = () => {
                     <div className='btn light'></div>
                 </div>
                 <div className='h-b-right'>
-                   <img src={HomeVector} alt='home-illustration' className='home-illustration'/>
+                   <img src={HomeVector} alt='home-illustration' className='home-illustration' />
                 </div>
             </div>
         </>
