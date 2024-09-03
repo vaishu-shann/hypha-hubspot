@@ -115,3 +115,12 @@
     font-weight: 500;
   }
 
+  .carousel .thumbs-wrapper, .carousel .slide .legend,.carousel.carousel-slider .control-arrow{
+    display: none!important;
+  }
+  .carousel .control-dots .dot{
+    background: #087E8B!important;
+  }
+  .carousel .slider-wrapper{
+    height: 750px!important;
+  }

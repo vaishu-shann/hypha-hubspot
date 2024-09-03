@@ -1,0 +1,18 @@
+.home-testimonial{
+    padding: 100px;
+    max-width: 1400px;
+    margin:50px auto;
+}
+.testimonial-head{
+    text-align: center;
+    font-size: 44px;
+    ine-height: 1.2 !important;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0B3954;
+}
+.legend{
+    color: #0B3954;
+}
