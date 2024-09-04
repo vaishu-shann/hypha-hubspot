@@ -3,6 +3,7 @@ import "../styles/homePage.css"
 import HomeBanner from '../components/Home/HomeBanner/HomeBanner'
 import WhyKranberry from '../components/Home/WhyKranberry/whyKranberry'
 import HomeTestimonial from '../components/Home/HomeTestimonial/Testimonial'
+import HomeResults from '../components/HomeResults/HomeResults'
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <HomeBanner/>
       <WhyKranberry/>
       <HomeTestimonial/>
+      <HomeResults/>
     </div>
   )
 }
