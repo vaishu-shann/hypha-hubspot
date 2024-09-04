@@ -33,7 +33,7 @@ const HomeResults = () => {
 <img src={Port1} alt="" className='exp-left-img'/>
         </div>
         <div className='exp-port-right'>
-<img src={Port2} alt="" className='exp-right-img'/>
+<img src={Port3} alt="" className='exp-right-img'/>
           
           </div>
       </div>
