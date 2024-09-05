@@ -24,13 +24,10 @@
   position: relative;
   padding: 12px 0;
   border-radius: 2px;
-  width: 20%;
+  text-align: left;
   flex: 0 0 auto;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: auto;
-  background: #BFD7EA;
     border-radius: 5px;
 
   @media (max-width: 991px) {
@@ -41,6 +38,17 @@
     width: 100%;
     flex: 0 0 auto;
   }
+}
+
+.result-cta{
+  background-color: #C81D25;
+  color: white !important;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+  margin: auto;
 }
 .style-2 {
   height: 30px;
@@ -61,7 +69,7 @@
     .title {
       display: block;
       /*  Set same font-size and line height  */
-      font-size: 20px;
+      font-size: 17px;
       line-height: 20px;
       transition: transform 0.4s ease;
     }
@@ -75,11 +83,11 @@
       transform: rotate(20deg);
     }
   }
+
   .link-icon {
     position: relative;
     width: 35px;
     height: 35px;
-    background: #BFD7EA;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -126,16 +134,36 @@
   margin: 1.2rem auto;
 }
 .exp-port-left{
-  max-width: 75%;
+  width: 68%;
 }
 .exp-port-right{
-  min-width: 35%;
+  width: 35%;
 }
 .exp-left-img{
-  width: 100%;
-  height: 600px;
+  width: 96%;
+  height: 750px;
+
+  object-fit: cover;
 }
 .exp-right-img{
-  width: 100%;
-  height: 300px;
+  width: 96%;
+  height: 250px;
+  object-fit: cover;
+
+}
+.exp-port-left{
+  .port-left-desc{
+    width: 98%;
+  }
+}
+.port-left-head{
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.2 !important;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  color: #087E8B;
+  margin-top: 10px;
 }
