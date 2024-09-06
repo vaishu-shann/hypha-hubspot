@@ -6,7 +6,7 @@
 .testimonial-head {
   text-align: center;
   font-size: 44px;
-  ine-height: 1.2 !important;
+  line-height: 1.2 !important;
   margin-bottom: 8px;
   font-style: normal;
   font-weight: 500;
@@ -28,4 +28,14 @@
     text-align: left;
     width: 70%;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+  .carousel-testimonial{
+    width: 95%;
+  }
+  .testimonial-head{
+
+    font-size: 35px;
+  }
 }

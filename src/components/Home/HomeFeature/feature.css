@@ -46,3 +46,27 @@
     position: absolute;
     height: 400px !important;
 }
+@media (max-width: 768px) {
+    .single-carousel-feature{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+padding: 70px 20px;
+    }
+    .home-feature-section  .carousel .slider-wrapper{
+        height: 775px!important;
+        padding: 50px 0;
+      }
+      .feature-left{
+        max-width: 100%;
+      }
+      .feature-image{
+        position: unset;
+      }
+      .feature-heading,.feature-para,.why-card-cta{
+        text-align: center;
+      }
+      .home-feature-section{    
+        margin: 0 auto 50px;
+    }
+}

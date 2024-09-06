@@ -63,7 +63,7 @@
       position: relative;
       font-size: 16px;
       line-height: 18px;
-      font-weight: 900;
+      font-weight: 600;
       letter-spacing: 0.13em;
       vertical-align: middle;
     }
@@ -141,4 +141,32 @@
 }
 .single-blog-card:hover{
     background: #bfd7ea91;
+}
+
+@media (max-width: 768px) {
+    .blog-phase-2 {
+        float: none;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .blog-phase-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .blog-phase-head,.blog-phase-desc{
+      text-align: center;
+      width: 100%;
+    }
+    .single-blog-card{
+      margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .blog-phase-2 {
+        display: block;
+    }
 }

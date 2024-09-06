@@ -124,3 +124,7 @@
   .carousel .slider-wrapper{
     height: 320px!important;
   }
+  @media (max-width: 768px) {
+  .carousel .slider-wrapper {
+    height: 625px !important;
+}}

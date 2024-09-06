@@ -6,6 +6,7 @@ import HomeTestimonial from '../components/Home/HomeTestimonial/Testimonial'
 import HomeResults from '../components/Home/HomeResults/HomeResults'
 import HomeFeature from '../components/Home/HomeFeature/Feature'
 import HomeBlog from '../components/Home/HomeBlog/Blog'
+import ConsultationSection from '../containers/ConsultationCard/Consultation'
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <HomeResults />
       <HomeFeature />
       <HomeBlog/>
+      <ConsultationSection/>
     </div>
   )
 }

@@ -19,6 +19,7 @@
   color: #0B3954;
   line-height: 1.2 !important;
   font-weight: 600;
+  font-size: 26px;
 }
 
 .changing-head{
@@ -92,9 +93,37 @@
 @media (max-width: 450px) {
   .btn {
     width: 130px;
+    margin: auto;
   }
 
   .light:after {
     width: 120px;
   }
+}
+@media (max-width: 768px) {
+.homepage-banner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: auto;
+margin-top: 140px;
+max-width: auto;
+
+width: auto;
+}
+.h-b-left,.h-b-right{
+  max-width: 100%;
+}
+.changing-head{
+  font-size: 38px;
+  text-align: center;
+}
+.h-b-left .sub-head{
+  text-align: center;
+}
+.home-illustration{
+  margin: 50px auto;
+  width: 350px;
+  height: 350px; 
+}
 }

@@ -71,7 +71,7 @@
     .nav-links {
       display: none;
     }
-    
+    .navbar{width: 91%;}
     .nav-links-mobile {
       display: flex;
       flex-direction: column;
