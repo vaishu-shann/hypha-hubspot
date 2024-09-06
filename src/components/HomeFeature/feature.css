@@ -1,0 +1,48 @@
+.home-feature-section{
+    padding:30px;
+    max-width: 1400px;
+    margin: 50px auto;
+}
+.home-feature-section  .carousel .slider-wrapper{
+    height: 450px!important;
+    padding: 50px 0;
+  }
+.single-carousel-feature{
+    background-image: linear-gradient(to bottom right, #ffc5ff, #087e8b63) !important;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:70px 40px;
+    position: relative;
+}
+.feature-left{
+    text-align: left;
+    max-width: 40%;
+}
+
+.feature-heading{
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 1.2 !important;
+    color: #0B3954;
+}
+.feature-para{
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 16px !important;
+    font-size: 1rem;
+    margin: 0 0 1.4rem;
+    color: #555555;
+}
+.feature-image{
+    top: -49px;
+    bottom: 0;
+    right: -256px;
+    position: absolute;
+    height: 400px !important;
+}
