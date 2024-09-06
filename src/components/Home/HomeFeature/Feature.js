@@ -2,9 +2,9 @@ import React from 'react'
 import "./feature.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import FeatureImage1 from "../../assets/images/Hypha-IllustrationSingle-1.svg"
-import FeatureImage2 from "../../assets/images/Hypha-IllustrationSingle-2.svg"
-import FeatureImage3 from "../../assets/images/Hypha-IllustrationSingle-3.svg"
+import FeatureImage1 from "../../../assets/images/Hypha-IllustrationSingle-1.svg"
+import FeatureImage2 from "../../../assets/images/Hypha-IllustrationSingle-2.svg"
+import FeatureImage3 from "../../../assets/images/Hypha-IllustrationSingle-3.svg"
 
 const HomeFeature = () => {
   return (

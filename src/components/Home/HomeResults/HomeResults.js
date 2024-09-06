@@ -1,8 +1,8 @@
 import React from 'react'
 import "./results.css"
-import Port1 from "../../assets/images/thumbnail-website-1.webp"
-import Port2 from "../../assets/images/pdq-communications-thumbnail.webp"
-import Port3 from "../../assets/images/thumbnail-from-sunair-co-website.webp"
+import Port1 from "../../../assets/images/thumbnail-website-1.webp"
+import Port2 from "../../../assets/images/pdq-communications-thumbnail.webp"
+import Port3 from "../../../assets/images/thumbnail-from-sunair-co-website.webp"
 
 const HomeResults = () => {
   return (
