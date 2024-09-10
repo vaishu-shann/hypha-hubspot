@@ -1,0 +1,54 @@
+.join-comp{
+    background-image: url(https://www.hyphadev.io/hubfs/_hypha/Backgrounds/Grainy%20Tan%20Background.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+    position: relative;
+    margin-top: 100px;
+}
+.wrapper{
+    padding: 50px ;
+    background-color: #fff;
+    width: 55%;
+    margin: auto;
+}
+
+
+/* padding:30px;
+max-width: 1400px;
+margin: 50px auto; */
+
+.wrapper-head{
+    font-size: 52px;
+    line-height: 1.2 !important;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0B3954;
+    text-align: center;
+
+}
+.wrapper-desc{
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 16px !important;
+    font-size: 1rem;
+    margin: 0 0 1.4rem;
+    text-align: center;
+}
+.floatIcon1{
+    position: absolute;
+    top: 21%;
+    left: 15%;
+    width: 100px;
+}
+.floatIcon2{
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
+    width: 100px;
+
+}

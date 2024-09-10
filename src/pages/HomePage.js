@@ -7,7 +7,6 @@ import HomeResults from '../components/Home/HomeResults/HomeResults'
 import HomeFeature from '../components/Home/HomeFeature/Feature'
 import HomeBlog from '../components/Home/HomeBlog/Blog'
 import ConsultationSection from '../containers/ConsultationCard/Consultation'
-import Footer from '../components/Footer/Footer'
 
 const HomePage = () => {
   return (
@@ -19,7 +18,7 @@ const HomePage = () => {
       <HomeFeature />
       <HomeBlog/>
       <ConsultationSection/>
-      <Footer/>
+  
     </div>
   )
 }
