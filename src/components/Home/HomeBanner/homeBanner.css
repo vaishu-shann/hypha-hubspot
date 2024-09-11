@@ -32,6 +32,21 @@
   text-decoration: none;
   text-transform: none;
   padding:20px 0;
+  text-decoration: underline;
+  text-decoration-color: #BFD7EA;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 5px;
+}
+.changing-subhead{
+  color: #000;
+  font-family: sofia-pro, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none;
+  text-transform: none;
+  padding:20px 0;
 }
 
 .btn {
@@ -115,9 +130,12 @@ width: auto;
 .h-b-left,.h-b-right{
   max-width: 100%;
 }
-.changing-head{
-  font-size: 38px;
+.changing-head,.changing-subhead{
+  font-size: 32px;
   text-align: center;
+}
+.wrap{
+  justify-content: center;
 }
 .h-b-left .sub-head{
   text-align: center;
@@ -129,4 +147,67 @@ width: auto;
   padding-top: 0px;
   padding-left: 0px;
 }
+.btn{
+  margin: auto;
+}
+}
+
+.animate-contain {
+	height: 40px;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 50px;
+}
+.animated-text {
+	display: inline-block;
+	transition: 300ms all;
+	margin-top: 0;
+	animation: slide 3s infinite alternate ease-in-out;
+	background-color: purple;
+	color: #fff;
+}
+.animated-text span {
+	display: block;
+	font-size: 20px;
+	padding:8px 5px;
+}
+@keyframes slide{
+	0%{margin-top:0;}
+	20%{margin-top:0;}
+	40%{margin-top:-40px;}
+	60%{margin-top:-40px;}
+	80%{margin-top:-80px;}
+	100%{margin-top:-80px;}
+
+}
+.wrap{
+  display:flex; 
+  align-items:center;
+  color:#000;
+  font-size:36px;
+ 
+}
+span{display:block}
+p{
+  display:inline-block;
+  height:86px;
+  overflow:hidden;
+  margin:10px 0;
+  font-size:36px;
+  position:relative
+}
+
+.flip span{
+  animation: flip 6s infinite;
+  transition:.5s;
+}
+@keyframes flip{
+  0%{transform:translateY(0)}
+  33%{transform:translateY(-100%)}
+  66%{transform:translateY(-200%)}
+  100%{transform:translateY(0)}
+}
+@keyframes flicker{
+  0%, 100%{opacity:0}
+  50%{opacity:1}
 }
