@@ -17,7 +17,7 @@ const HomeResults = () => {
           <div className='port-left-head'>Oliver Inc.</div>
           <div className='port-left-desc'>Through a combination of content reorganization, new blogs and pillars, and migrating to an SEO-optimized website, Oliver saw an immediate increase in search rankings and within the first year <i> more than quadrupled its monthly organic traffic.</i></div>
           <div className="linkWrap">
-            <a href="#" className="link style-2">
+            <a href="/" className="link style-2">
               <span className="mask">
                 <div className="link-container">
                   <span className="link-title1 title">Read Case Study</span>
@@ -41,7 +41,7 @@ const HomeResults = () => {
           <div className='port-left-head'>PDQ Communications</div>
           <div className='port-left-desc'>We rebuilt PDQ's site to provide a more user-friendly experience, and leveraged that <i> new environment with informative and strategic content designed to target relevant keywords</i>—exponentially increasing site traffic and new contact conversions.</div>
           <div className="linkWrap">
-            <a href="#" className="link style-2">
+            <a href="/" className="link style-2">
               <span className="mask">
                 <div className="link-container">
                   <span className="link-title1 title">Read Case Study</span>
@@ -64,7 +64,7 @@ const HomeResults = () => {
           <div className='port-left-head'>Sunair Co.</div>
           <div className='port-left-desc'>We implemented a long-term, strategic content plan targeting key search terms, which <i>skyrocketed organic traffic and new contacts.</i></div>
           <div className="linkWrap">
-            <a href="#" className="link style-2">
+            <a href="/" className="link style-2">
               <span className="mask">
                 <div className="link-container">
                   <span className="link-title1 title">Read Case Study</span>

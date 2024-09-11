@@ -16,7 +16,7 @@ const HomeBlog = () => {
                 </div>
                 {/* <button className='blog-phase-cta'>View All Post</button> */}
                 <div class="linkWrap">
-                    <a href="#" class="cta style-9">
+                    <a href="/" class="cta style-9">
                         <span>View All Posts</span>
                         <svg width="13px" height="10px" viewBox="0 0 13 10">
                             <path d="M1,5 L11,5"></path>
