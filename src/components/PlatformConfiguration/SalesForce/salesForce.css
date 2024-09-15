@@ -1,0 +1,82 @@
+.salesforce-cont{
+    padding: 10px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.salesforce-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+.salesforce-img-1{
+max-width: 50%;
+}
+.sf-width{
+    max-width: 50%;
+}
+.sf-sub-text{
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    margin-top: 2.5rem;
+    color: #555555;
+}
+.sf-head{
+    font-size: 44px;
+    margin-bottom: 20px;
+    line-height: 1.2 !important;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0B3954;
+}
+.sf-sub-desc{
+    font-weight: 400;
+    line-height: 1.7;
+    margin-bottom: 16px !important;
+    font-size: 1.1rem;
+    margin: 0 0 1.4rem;
+}
+.salesforce-img-2{
+    max-width: 50%;
+    margin-right: -45px;
+}
+.sf-sub-text-underline{
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 16px !important;
+    font-size: 1.15rem;
+    margin: 0 0 1.4rem;
+    text-decoration: underline;
+    color: #087E8B;
+    cursor: pointer;
+    text-underline-offset: 3px;
+}
+.sf-sub-text-underline:hover{
+    text-decoration: none;
+}
+.salesforce-img-3 {
+    max-width: 42%;
+}
+
+.bordered-para{
+    border-left: 10px solid #f2f79d;
+    font-size: 1.25rem;
+    padding-left: 2rem !important;
+    color: #000 !important;
+    margin-right: 3rem;
+    font-weight: 500;
+}
+.salesforce-img-4{
+    max-width: 42%;
+
+}
+.bp-auth{
+    color: #767676;
+    text-align: left;   
+    line-height: 1.4;
+    margin-top: 2rem;
+}

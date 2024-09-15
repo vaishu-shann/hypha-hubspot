@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const navFeed = [
     {id:1, head:"About",route:'/join-us'},
-    {id:2, head:"Solutions",route:'/'},
+    {id:2, head:"Solutions",route:'/hubspot-platform-configuration-integration'},
     {id:3, head:"Industries & Expertise",route:'/'},
     {id:4, head:"Portfolio",route:'/'},
     {id:5, head:"Referrals",route:'/'},

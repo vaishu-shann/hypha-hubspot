@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Footer from './components/Footer/Footer';
 import JoinUsPage from './pages/JoinUsPage';
+import ConfigurationPage from './pages/ConfigurationPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/join-us" element={<JoinUsPage/>} />
+        <Route path="/hubspot-platform-configuration-integration" element={<ConfigurationPage/>} />
         
       </Routes>
       <Footer/>
