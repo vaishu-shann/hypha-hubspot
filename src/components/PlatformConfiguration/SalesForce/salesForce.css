@@ -11,6 +11,13 @@
     align-items: center;
     min-height: 100vh;
 }
+.salesforce-flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
 .salesforce-img-1{
 max-width: 50%;
 }
@@ -79,4 +86,29 @@ max-width: 50%;
     text-align: left;   
     line-height: 1.4;
     margin-top: 2rem;
+}
+@media (max-width: 768px) {
+    .salesforce-flex,.salesforce-flex-reverse {
+        display: flex;
+        flex-direction: column;
+    }
+    .salesforce-img-1,.salesforce-img-2,.salesforce-img-3,.salesforce-img-4{
+        max-width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .sf-width{
+        max-width: 95% !important;
+
+    }
+    .salesforce-img-2{
+        margin-right: 0;
+    }
+    .sf-head{
+        font-size: 28px;
+    }
+    .sf-sub-text-underline{font-size: 1rem;}
+    .bordered-para{
+        margin-right: 0;
+        font-size: 1rem;
+    }
 }

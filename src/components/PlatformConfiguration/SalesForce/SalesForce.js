@@ -17,14 +17,15 @@ const SalesForce = () => {
 
                 </div>
             </div>
-            <div className='salesforce-flex'>
+            <div className='salesforce-flex-reverse'>
+            <img src={Analyitics} alt="" className='salesforce-img-2' />
+
                 <div className='sf-width'>
                     <div className='sf-sub-text'>Tailored Hubs for Your Unique Business Needs</div>
                     <div className='sf-head'>HubSpot Platform Configuration Services</div>
                     <div className='sf-sub-desc'>Every business is unique, which is why HubSpot’s flexibility is so crucial for any organization looking for the right platform to build on. From small-scale startups to large enterprises, our team of certified HubSpot professionals is equipped to customize your HubSpot instance—from the HubSpot CRM, across Marketing Hub, Sales Hub, and Service Hub. <br /><br />With custom properties and objects, pipelines, dashboards, and automation, down to your admin settings, we can configure your unique instance to reflect your unique needs. Whether marketing automation, sales systems, or customer support channels—adapt HubSpot to meet your current requirements while remaining flexible enough to adapt to your future growth. </div>
                     <div className='sf-sub-text-underline'>Embrace the Full Potential of Your HubSpot Platform With Our Configuration Services!</div>
                 </div>
-                <img src={Analyitics} alt="" className='salesforce-img-2' />
             </div>
             <div className='salesforce-flex'>
                 <img src={IllustrationSingle} alt="" className='salesforce-img-3' />
@@ -36,14 +37,15 @@ const SalesForce = () => {
                 </div>
             </div>
 
-            <div className='salesforce-flex'>
+            <div className='salesforce-flex-reverse'>
+            <img src={netsuite} alt="" className='salesforce-img-4' />
+
                 <div>
                     <div className='bordered-para'>
                         "With seven years of direct HubSpot experience, I can confidently say that custom integrations are an indispensable tool for making a data migration quick and easy. These integrations seamlessly connect HubSpot with various platforms, allowing for an effortless data transfer, and save you and your team valuable time and resources. By leveraging custom integrations, we empower businesses to migrate their data effortlessly, ensuring a seamless transition between HubSpot and their old CRMs. Accurate field mapping and synchronization eliminate the risk of data loss or errors, while integrating CRM, email marketing, and e-commerce tools further enhances productivity and drives growth."
                     </div>
                     <div className='bp-auth'>– Kevin Campbell, Hypha Chief HubSpot Platform Specialist</div>
                 </div>
-                <img src={netsuite} alt="" className='salesforce-img-4' />
 
             </div>
         </div>

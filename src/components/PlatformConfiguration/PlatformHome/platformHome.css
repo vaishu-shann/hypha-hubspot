@@ -42,3 +42,26 @@
     padding-top: 120px;
     padding-left: 65px;
 }
+
+@media (max-width: 768px) {
+    .platform-home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .platform-illustration {
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+        padding-left: 0;
+    }
+    .platform-home-sub-desc{
+        text-align: center;
+        line-height: 1.4;
+    }
+    .platform-home-head{
+        font-size: 28px;
+        text-align: center;
+    }
+}
