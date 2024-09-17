@@ -1,0 +1,80 @@
+.p-list-sec{
+    padding:50px 10px;
+    max-width: 1400px;
+    margin: auto;
+}
+.p-list-head{
+    margin-bottom: 20px;
+    font-size: 22px;    
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0B3954;
+    text-align: center;
+}
+.single-port-card{
+    width: 30%;
+    margin: 50px 0;
+    cursor: pointer;
+}
+.p-card-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.p-card-head{
+    font-size: 22px;
+    line-height: 1.2 !important;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0B3954;
+}
+.p-card-desc{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 16px !important;
+}
+.single-port-card:hover{
+    opacity: 0.7;
+}
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 10px; */
+    margin: auto;
+    width: 100%;
+  }
+  
+  .sort-button {
+    padding: 10px 15px;
+    border: 1px solid #000;
+    background-color: white;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 4px;
+  }
+  
+  .sort-button.active {
+    background-color: #009688; /* Green color */
+    color: white;
+    border: 1px solid #009688;
+  }
+  
+  .sort-button:hover {
+    background-color: #e0e0e0; /* Light grey on hover */
+  }
+  @media (max-width: 768px) {
+    .p-list-head,.button-container{
+        display: none;
+    }
+    .p-list-sec{
+        width: 100%;
+    }
+    .single-port-card{
+        width: 100%;
+        margin: auto;
+    }
+  }

@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import Footer from './components/Footer/Footer';
 import JoinUsPage from './pages/JoinUsPage';
 import ConfigurationPage from './pages/ConfigurationPage';
+import PortfolioPage from './pages/PortfolioPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/join-us" element={<JoinUsPage/>} />
         <Route path="/hubspot-platform-configuration-integration" element={<ConfigurationPage/>} />
+        <Route path="/portfolio" element={<PortfolioPage/>} />
         
       </Routes>
       <Footer/>
