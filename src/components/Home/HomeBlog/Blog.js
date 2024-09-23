@@ -2,6 +2,7 @@ import React from 'react'
 import "./blog.css"
 import { MdOutlineArrowForward } from "react-icons/md";
 import { IconContext } from "react-icons";
+
 const HomeBlog = () => {
     return (
         <div className='home-blog-section'>
