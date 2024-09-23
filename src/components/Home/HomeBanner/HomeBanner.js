@@ -1,6 +1,6 @@
 import React from 'react'
 import "./homeBanner.css"
-import HomeVector from "../../../assets/images/hero-img2.png"
+import HomeVector from "../../../assets/images/hero-alt-img.jpeg"
 
 
 const HomeBanner = () => {
