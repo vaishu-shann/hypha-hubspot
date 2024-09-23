@@ -2,6 +2,7 @@
   padding: 50px 30px;
   max-width: 1400px;
   margin: 50px auto;
+  background: linear-gradient(45deg, #bfd7ea, #bfd7ea, #F5F5F7, #ffffff);
 }
 .result-head{
     text-align: center;
