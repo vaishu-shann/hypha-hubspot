@@ -1,6 +1,6 @@
 .why-section{
-    background: linear-gradient(0deg, #0b3954, #087e8b, #bfd7ea, #ffffff);;
-    padding: 70px 20px;
+    /*background: linear-gradient(0deg, #0b3954, #087e8b, #bfd7ea, #ffffff);*/
+    background: linear-gradient(339deg, #B7B7B7, #F5F5F7, #F5F5F7, #ffffff);
 }
 .why-sec-layer-1{
     display: flex;
