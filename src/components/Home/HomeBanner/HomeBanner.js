@@ -8,7 +8,7 @@ const HomeBanner = () => {
         <>
             <div className='homepage-banner'>
                 <div className='h-b-left'>
-                    <div className='sub-head heading4'>Design. Build. Integrate. Scale.</div>
+                    <div className='sub-head heading4'>Design. Build. Integrate. Scale.1234</div>
                     {/* <div class="container">
                         <div class="title">
                             <div class="word rhythm">
