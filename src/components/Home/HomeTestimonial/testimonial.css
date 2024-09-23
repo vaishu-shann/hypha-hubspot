@@ -2,7 +2,10 @@
   padding: 100px 30px 40px;
   max-width: 1400px;
   margin: 50px auto;
+  background: #0b3954; /* Set background color */
+  color: white; /* Set text color to white */
 }
+
 .testimonial-head {
   text-align: center;
   font-size: 44px;
@@ -11,31 +14,32 @@
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
-  color: #0b3954;
+  color: white; /* Change text color to white */
 }
+
 .carousel-testimonial {
   margin: 3rem auto 1.4rem !important;
   border-left: 10px solid #FF5A5F;
   font-size: 1.25rem;
   font-weight: 500;
   padding-left: 2rem !important;
-  color: #000 !important;
+  color: white !important; /* Change text color to white */
   width: 70%;
   text-align: left;
 }
-.auth-name{
-    color: #767676;
-    text-align: left;
-    width: 70%;
-    margin: auto;
+
+.auth-name {
+  color: white; /* Change text color to white */
+  text-align: left;
+  width: 70%;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
-  .carousel-testimonial{
+  .carousel-testimonial {
     width: 95%;
   }
-  .testimonial-head{
-
+  .testimonial-head {
     font-size: 35px;
   }
 }
