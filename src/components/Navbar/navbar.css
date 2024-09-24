@@ -28,7 +28,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 16px;
 }
 
 .nav-links li {
@@ -38,9 +38,9 @@
 .nav-links a {
   text-decoration: none;  /* Ensure no underline by default */
   color: #000;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 8px 12px;
+  font-size: 14px;
+  /*font-weight: 500;
+  padding: 8px 12px;*/
   transition: color 0.3s ease;
 }
 
