@@ -1,7 +1,11 @@
 .footer-section{
     padding:30px;
+    /*
     max-width: 1400px;
     margin: 50px auto;
+    */
+    padding-left: 140px;
+    padding-right: 140px;
     background: linear-gradient(181deg, #fff, #ffbbbd);
 }
 .footer-section-1,.footer-section-2{
