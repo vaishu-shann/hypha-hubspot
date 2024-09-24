@@ -27,6 +27,8 @@
     padding: 10px;
     max-width: 1400px;
     margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 @media (min-width: 768px) {
 .why-sec-cards{
