@@ -13,10 +13,12 @@ const HomeTestimonial = () => {
                 showArrows={false} 
                 autoPlay 
                 infiniteLoop 
-                interval={6000}  /* Set the wait time to 6 seconds (6000 ms) */
-                transitionTime={2500}  /* Slowed down the transition time to 1.5 seconds (1500 ms) */
-                showStatus={false}  /* Removed the "1 of 4" pagination */
-                swipeScrollTolerance={1}  /* Ensures it goes directly from slide 4 to 1 without crossing 3, 2 */
+                interval={6000}  // Set the wait time to 6 seconds (6000 ms)
+                transitionTime={1800}  // Slowed down the transition time to 1.5 seconds (1500 ms)
+                showStatus={false}  // Removed the "1 of 4" pagination
+                swipeScrollTolerance={5}  // Increased sensitivity for swipe scrolling
+                emulateTouch  // Enhanced swipe behavior
+                stopOnHover={false}  // Ensure it doesn't stop on hover
             >
                 <div>
                     <div className='carousel-testimonial'>
