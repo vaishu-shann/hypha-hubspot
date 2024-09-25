@@ -26,6 +26,7 @@
   color: white !important; /* Change text color to white */
   width: 70%;
   text-align: left;
+  text-decoration: none; /* Prevent underline */
 }
 
 .auth-name {
@@ -33,6 +34,7 @@
   text-align: left;
   width: 70%;
   margin: auto;
+  text-decoration: none; /* Prevent underline */
 }
 
 @media (max-width: 768px) {
@@ -42,4 +44,11 @@
   .testimonial-head {
     font-size: 35px;
   }
+}
+
+/* Prevent underline on hover */
+.carousel-testimonial:hover,
+.auth-name:hover,
+.testimonial-head:hover {
+  text-decoration: none;
 }
