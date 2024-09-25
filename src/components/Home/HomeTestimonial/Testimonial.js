@@ -9,7 +9,15 @@ const HomeTestimonial = () => {
             <div className='testimonial-head'>
                 What Our Customers Are Saying
             </div>
-            <Carousel showArrows={false} autoPlay infiniteLoop interval={6000} transitionTime={1500}>
+            <Carousel 
+                showArrows={false} 
+                autoPlay 
+                infiniteLoop 
+                interval={6000}  /* Set the wait time to 6 seconds (6000 ms) */
+                transitionTime={2500}  /* Slowed down the transition time to 1.5 seconds (1500 ms) */
+                showStatus={false}  /* Removed the "1 of 4" pagination */
+                swipeScrollTolerance={1}  /* Ensures it goes directly from slide 4 to 1 without crossing 3, 2 */
+            >
                 <div>
                     <div className='carousel-testimonial'>
                         “I have had the pleasure of working with Hypha over the past 2 years and let me tell you...they do not disappoint! From rebranding to website design, content development and marketing plan development and execution, the team at Hypha goes above and beyond what is asked to deliver quality content. They’re communicative, knowledgeable and provide excellent service, always.”
