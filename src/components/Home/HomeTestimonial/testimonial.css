@@ -50,5 +50,5 @@
 .carousel-testimonial:hover,
 .auth-name:hover,
 .testimonial-head:hover {
-  text-decoration: none;
+  text-decoration: none !important; /* Added !important to ensure underline is removed */
 }
