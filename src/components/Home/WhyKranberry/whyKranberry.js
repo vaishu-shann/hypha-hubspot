@@ -10,19 +10,20 @@ const WhyKranberry = () => {
         Why Work With Kranberry?
         </div>
         <div className='why-para'>
-        We're problem solvers. We're revenue specialists. We're design, content, and integration experts who will leverage the HubSpot platform to attract more customers, convert more leads, and achieve sustainable growth for your business.</div>
+        We’re Salesforce specialists who turn challenges into opportunities. Our expertise covers every aspect of Salesforce, from design and development to seamless integration, ensuring your business operates at its full potential. We help you attract more customers, convert leads effectively, and drive sustainable growth with customized Salesforce solutions.</div>
       </div>
       <div className='why-sec-cards'>
         <div className='why-single-card'>
-            <div className='why-card-head'>Custom Integrations</div>
-            <div className='why-card-desc'>No matter your existing platform, we seamlessly onboard, migrate, configure, and integrate all your systems into a singular, supercharged revenue engine.</div>
-            <div className='why-card-cta'>Learn More About Custom Integrations</div>
+            <div className='why-card-head'>Salesforce Integrations </div>
+            <div className='why-card-desc'>No matter your existing platform, we seamlessly onboard, migrate, configure, and integrate all your systems into a unified, high-performing Salesforce ecosystem.</div>
+            <div className='why-card-cta'>Learn More About Salesforce Integrations</div>
 
         </div>
         <div className='why-single-card'>
-            <div className='why-card-head'>Growth-Driven Design</div>
-            <div className='why-card-desc'>We reimagine and reinvent your website, landing pages, and collateral into stunning, engaging, conversion-focused lead generators.</div>
-            <div className='why-card-cta'>Explore Web Design Solutions</div>
+            <div className='why-card-head'>Optimized Salesforce Experiences</div>
+            <div className='why-card-desc'>We elevate your Salesforce setup, ensuring your processes, data management, and automation are designed to maximize engagement and drive results.</div>
+            <div className='why-card-cta'>Discover Salesforce Solutions
+</div>
 
         </div>
         <div className='why-single-card'>
