@@ -10,7 +10,7 @@ const HomeBanner = () => {
         <>
             <div className='homepage-banner'>
                 <div className='h-b-left'>
-                    <div className='sub-head heading4'>Design. Build. Integrate. Scale.1234</div>
+                    <div className='sub-head heading4'>Plan. Innovate, Execute. Grow</div>
 
                     <div class="wrap">
                         <p class="flip"><span className='changing-head'>Build your Business</span>
@@ -18,7 +18,7 @@ const HomeBanner = () => {
                             <span className='changing-head'>Design your Business</span>
                         </p>
                     </div>
-                    <div className='changing-subhead'> on the HubSpot Platform.</div>
+                    <div className='changing-subhead'> on the Salesforce Platform.</div>
                     <div className='home-b-cta' onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}>
                         <div className='home-b-cta-text' >Get Started</div>
