@@ -1,130 +1,150 @@
 .navbar {
+  box-shadow: 0 4px 6px #0000001a;
+  justify-content: space-between;
+  padding: 0px 25px;
+  position: fixed;
+  width: 90%;
+  z-index: 1000;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  border-radius: 27px;  /* Rounded edges */
+  backdrop-filter: blur(3px); /* Apply the blur effect */
+  background-color: rgba(255, 255, 255, 0.8); /* Translucent background */
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 70px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;  /* Ensure no underline by default */
+  color: #000;
+  font-size: 14px;
+  /*font-weight: 500;
+  padding: 8px 12px;*/
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #087E8B;
+  text-decoration: none;  /* Remove underline on hover */
+}
+
+.contact-btn {
+  border: 1px solid #f15c5e;
+  border-radius: 88px;
+  padding: 11px 14px;
+  display: inline-flex;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  border-color: #f15c5f;
+  border-width: 1px;
+  background: #f15c5e;
+  border: 1px solid #f15c5e;
+  color: #fff !important;
+}
+
+.mobile-menu-icon {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    width: 92%;  /* Adjust the width slightly for mobile */
+    padding: 5px 20px;  /* Adjust padding to ensure a good fit */
+    border-radius: 30px;  /* Rounded edges for mobile */
+    backdrop-filter: blur(3px); /* Maintain the blur effect */
+    background-color: rgba(255, 255, 255, 0.8); /* Maintain translucency */
+    box-shadow: 0 4px 6px #0000001a; /* Retain the shadow effect */
+  }
+
+  .nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* Adjust based on your navbar height */
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Make the mobile menu translucent */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    border-radius: 0 0 30px 30px; /* Rounded bottom edges for the mobile menu */
+    backdrop-filter: blur(3px); /* Apply the blur effect to the mobile menu */
+  }
+
+  .nav-links-mobile li {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .nav-links-mobile a {
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
-    background-color: white;
-    position: fixed;
-    width: 97%;  
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo img {
-    height: 60px;
-    margin-right: 10px;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .nav-links li {
-    margin-left: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
     color: #000;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 8px 12px;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    color: #087E8B;
-  }
-  
-  .contact-btn {
-    border: 1px solid #f15c5e;
-    border-radius: 88px;
-    padding: 14px 20px;
-    display: inline-flex;
-    margin-bottom: 5px;
     text-decoration: none;
-    color: #000000;
-    cursor: pointer;
+    font-size: 18px;
+    width: 86%;
   }
-  .contact-btn:hover {
-    border-color: #f15c5f;
-    border-width: 1px;
-    background: #f15c5e;
-    border: 1px solid #f15c5e;
-    color: #fff !important;
+
+  .nav-links-mobile a:hover {
+    background-color: #f2f2f2;
+    color: #0099ff;
+    text-decoration: none;  /* Remove underline on hover */
   }
+
   .mobile-menu-icon {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
+    display: block;
   }
-  
-  /* Media Query for Mobile Devices */
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-    .navbar{width: 91%;}
-    .nav-links-mobile {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 70px; /* Adjust based on your navbar height */
-      left: 0;
-      width: 100%;
-      background-color: white;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      padding: 0;
-    }
-    
-    .nav-links-mobile li {
-      width: 100%;
-      border-bottom: 1px solid #ddd;
-    }
-    
-    .nav-links-mobile a {
-      padding: 15px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      color: #000;
-      text-decoration: none;
-      font-size: 18px;
-      width: 86%;
-    }
-    
-    .nav-links-mobile a:hover {
-      background-color: #f2f2f2;
-      color: #0099ff;
-    }
-  
-    .mobile-menu-icon {
-      display: block;
-    }
-  
-    .contact-btn {
-      display: none; /* Hide the contact button in mobile view for now */
-    }
-    
-    /* Add '+' icon styling for dropdown items */
-    .nav-links-mobile li a:after {
-      content: '+';
-      font-size: 18px;
-    }
-  
-    .nav-links-mobile li.open a:after {
-      content: '-';
-    }
+
+  .contact-btn {
+    display: none; /* Hide the contact button in mobile view for now */
   }
-  
+
+  /* Add '+' icon styling for dropdown items */
+  .nav-links-mobile li a:after {
+    content: '+';
+    font-size: 18px;
+  }
+
+  .nav-links-mobile li.open a:after {
+    content: '-';
+  }
+}
