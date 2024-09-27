@@ -24,7 +24,7 @@ li{
     cursor: pointer;
 }
 li:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
 
 }
 .footer-section-2{
