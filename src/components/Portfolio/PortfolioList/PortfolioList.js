@@ -3,10 +3,12 @@ import "./portfolioList.css"
 import CardImage1 from "../../../assets/images/canidium-portfolio-thumbnail.jpg"
 import CardImage2 from "../../../assets/images/MSCU-website-thumbnail.webp"
 import CardImage3 from "../../../assets/images/thumbnail-from-bcs-website.webp"
+import { useNavigate } from 'react-router-dom';
 
 const sortList = ["Show All", "Healthcare", "Finance", "Transportation & Logistics", "Manufacturing", " Social Impact & ESG", "Clean Tech & Renewable Energy", "Other"]
 
 const PortfolioList = () => {
+  const navigate = useNavigate();
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleClick = (index) => {
@@ -39,13 +41,13 @@ const PortfolioList = () => {
       <div className="card-container">
         {cards.map((card, index) => (
           <div
-
             key={card.id}
             className={`card ${hoveredIndex === index ? 'hovered' : ''}`}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
+            onClick={() =>navigate("/canidium")}
           >
-            <img src={card.image} alt='' className='p-card-img' />
+            <img src={card.image} alt='' className='p-card-img'    />
             <div className='p-card-head'>{card.title}</div>
             <div className='p-card-desc'>{card.content}</div>
           </div>

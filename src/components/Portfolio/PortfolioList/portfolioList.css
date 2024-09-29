@@ -104,17 +104,31 @@
     opacity: 1;
   }
   
-
+.d-home-img{
+    max-width: 100%;
+    width: 100%;
+    transform: rotate(357deg) scale(1.1);
+    filter: drop-shadow(1px 1px 4px #dfdfdf);
+}
 
   @media (max-width: 768px) {
     .p-list-head,.button-container{
         display: none;
     }
     .p-list-sec{
-        width: 100%;
+        width: 100%;    
     }
     .single-port-card{
         width: 100%;
         margin: auto;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 100%;
     }
   }

@@ -8,6 +8,9 @@ import JoinUsPage from './pages/JoinUsPage';
 import ConfigurationPage from './pages/ConfigurationPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactUs from './components/ContactUs/ContactUs';
+import DetailPortfolioPage from './pages/DetailPortfolioPage';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
@@ -20,6 +23,7 @@ function App() {
         <Route path="/hubspot-platform-configuration-integration" element={<ConfigurationPage/>} />
         <Route path="/portfolio" element={<PortfolioPage/>} />
         <Route path="/contact" element={<ContactUs/>} />
+        <Route path="/canidium" element={<DetailPortfolioPage/>} />
         
       </Routes>
       <Footer/>

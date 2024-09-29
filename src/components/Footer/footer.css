@@ -70,4 +70,8 @@ font-size: 14px;
     align-items: baseline;
     margin-top: 20px;
 }
+.footer-section{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 }

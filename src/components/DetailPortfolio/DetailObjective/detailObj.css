@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&display=swap');
+
+.port-detail-block {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    grid-gap: 20px;
+}
+h2 {
+    font-size: 64px;
+    line-height: 1 !important;
+    color: #0B3954;
+    font-family: tt-commons-pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    margin-bottom: 24px;
+}
+
+.port-objective p {
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 16px !important;
+    font-size: 1.1rem;
+    margin: 0 0 1.4rem;
+    height: auto;
+}
+/* ol{
+    padding-left: 0;
+} */
+.port-status-col {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+.port-status-col ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.port-status-col h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+.port-objective li{
+    list-style-type: decimal;
+
+}
+.port-objective-col li , .port-status-col li{
+    font-size: 18px;
+}
+
+.port-ss-img {
+    background: linear-gradient(140deg, #36399c, #0060aa);
+    padding-top: 80px;
+}
+.port-ss-img img {
+    max-width: 100%;
+    width: 1400px;
+    margin: 0 auto;
+    display: block;
+}
+a.port-website-link {
+    background: #f15c5e;
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.port-results-block {
+    margin: 120px auto 80px;
+    max-width: 100%;
+    width: 900px;
+}
+
+.port-results {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.port-results-block p {
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 26px !important;
+    font-size: 1.1rem;
+    margin: 0 0 1.4rem;
+    height: auto;
+}
+
+.port-results-block li{
+    list-style-type: disc;
+font-size: 18px;
+}
+
+
+.port-quote {
+    margin: 50px auto 150px auto;
+    max-width: 100%;
+    width: 70%;
+}
+
+blockquote {
+    border-left: none;
+    color: #000 !important;
+    font-family: "Edu QLD Beginner", cursive;
+    font-optical-sizing: auto;
+    font-size: 26px;
+    font-style: normal;
+    padding: 0 !important;
+    text-align: center;
+}
+.port-other-work {
+    margin: 120px auto;
+    max-width: 100%;
+    width: 1400px;
+}
+
+.port-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 70px;
+}
+.port-grid a{
+    display: flex;
+    flex-direction: column;
+}
+.port-other-work img {
+    font-size: .583rem;
+    word-break: normal;
+    width: 100%;
+}
+.port-other-work p{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .port-detail-block {
+        display: block;
+    }
+    .port-stat {
+        display: block;
+        padding: 150px 20px 30px;
+    }
+    .port-objective{
+        padding:  20px;
+
+    }
+    .port-results{
+        padding:  25px;
+
+    }
+    .port-quote{
+        width: 100%;
+    }
+    blockquote{
+        font-size: 22px;
+    }
+    .port-other-work h2{
+        font-size: 32px !important;
+    }
+    .port-content-grid, .port-grid, .port-metrics, .port-cta-grid {
+        grid-template-columns: 1fr;
+    }
+    .port-other-work{
+        padding: 0 20px;
+        width:auto;
+    }
+}

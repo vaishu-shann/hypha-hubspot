@@ -1,0 +1,75 @@
+.d-home-banner{
+    padding:50px 10px;
+    max-width: 1400px;
+    margin: auto;
+}
+.d-home-cont{
+    padding-top: 100px;
+}
+.d-home-head{
+    font-size: 80px;
+    font-weight: 900;
+    color: #0B3954;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.d-home-desc{
+    color: #555555;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    padding: 0px 0px 120px 0px;
+    width: 70%;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.port-fit-img{
+    margin: 0 auto;
+    max-width: 100%;
+    /* width: 1600px; */
+    overflow: hidden;
+}
+.d-home-img{
+    max-width: 100%;
+    width: 100%;
+    transform: rotate(357deg) scale(1.1);
+}
+.port-stat {
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1280px;
+    padding-top: 150px;
+}
+.heading5 {
+    font-size: 24px;
+    line-height: 1 !important;
+    letter-spacing: -.02em;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+.online-green{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius:50% ;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .d-home-head{
+        font-size: 38px;
+   
+    } 
+    .d-home-desc{
+        width: 98%;
+    }
+}
