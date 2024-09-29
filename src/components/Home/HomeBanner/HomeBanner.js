@@ -12,12 +12,12 @@ const HomeBanner = () => {
                 <div className='h-b-left'>
                     <div className='sub-head heading4'>Plan. Innovate, Execute. Grow</div>
 
-                    <div class="wrap">
-                        <p class="flip"><span className='changing-head'>Build your Business</span>
-                            <span className='changing-head'>Scale your Business</span>
-                            <span className='changing-head'>Design your Business</span>
-                        </p>
+                    <div class="rotating-text-wrapper">
+                        <h2>Build you Business</h2>
+                        <h2>Integrate you Business</h2>
+                        <h2>Scale you Business</h2>
                     </div>
+
                     <div className='changing-subhead'> on the Salesforce Platform.</div>
                     <div className='home-b-cta' onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}>
