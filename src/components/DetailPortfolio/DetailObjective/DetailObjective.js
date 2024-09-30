@@ -52,8 +52,8 @@ const DetailObjective = () => {
                               <p><strong>Solution:</strong> We engaged in iterative development, employing agile methodologies to refine custom features based on user feedback. By prioritizing essential functionalities and using modular design principles, we ensured that the application could be easily updated and expanded in response to changing business requirements.</p>
                             </li>
                           </ol> 
-                        <h1>What we did</h1>
-                        /*
+                        <h2>What we did</h2>
+                        {/*
                             <strong>Apex Class for Client Data Management:</strong>
                                 <ul>
                                     <li>Apex Class 1: This class was designed to fetch specific client accounts and their associated information. It aggregated data from multiple sources, ensuring that advisors had access to comprehensive client profiles at their fingertips.</li>
@@ -96,7 +96,7 @@ const DetailObjective = () => {
                                     <li>Provided ongoing support and training for users to ensure they were comfortable navigating the new system. We set up a dedicated helpdesk for addressing any queries post-implementation, which further eased the transition to the new application.</li>
                                 </ul>
                             
-                                */
+                                */}
                     </div>
                 </div>
                 <div class="port-status-col">
