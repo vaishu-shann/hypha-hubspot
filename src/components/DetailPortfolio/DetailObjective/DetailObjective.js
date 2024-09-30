@@ -53,7 +53,7 @@ const DetailObjective = () => {
                             </li>
                           </ol> 
                         <h3>What we did</h3>
-                        
+                        /*
                             <strong>Apex Class for Client Data Management:</strong>
                                 <ul>
                                     <li>Apex Class 1: This class was designed to fetch specific client accounts and their associated information. It aggregated data from multiple sources, ensuring that advisors had access to comprehensive client profiles at their fingertips.</li>
@@ -96,7 +96,7 @@ const DetailObjective = () => {
                                     <li>Provided ongoing support and training for users to ensure they were comfortable navigating the new system. We set up a dedicated helpdesk for addressing any queries post-implementation, which further eased the transition to the new application.</li>
                                 </ul>
                             
-                                
+                                */
                     </div>
                 </div>
                 <div class="port-status-col">
