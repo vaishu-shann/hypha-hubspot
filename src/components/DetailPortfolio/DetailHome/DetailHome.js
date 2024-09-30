@@ -1,6 +1,6 @@
-import React from 'react';
-import "./detailHome.css";
-import Detailbanner from "../../../assets/images/canidium-portfolio-feature.png";
+import React from 'react'
+import "./detailHome.css"
+import Detailbanner from "../../../assets/images/canidium-portfolio-feature.png"
 
 const DetailHome = () => {
   return (
@@ -30,8 +30,9 @@ const DetailHome = () => {
               </ul>
           </div>
         </div>
+        
         <div className='port-fit-img'>
-          <img src={Detailbanner} alt="" className='d-home-img' />
+          <img src={Detailbanner} alt="Sun Life Banner" className='d-home-img' />
           <div className='port-stat'>
             <div className="port-date">
               <h3 className="heading5">Launch Date</h3>
@@ -45,11 +46,11 @@ const DetailHome = () => {
               </div>
             </div>
           </div>
+          <hr style={{ margin: "60px auto", maxWidth: "100%", width: "1400px" }} />
         </div>
-        <hr style={{margin: "60px auto", maxWidth: "100%", width: "1400px"}} />
       </div>
     </>
-  );
-};
+  )
+}
 
 export default DetailHome;
