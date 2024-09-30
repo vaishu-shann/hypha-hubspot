@@ -52,7 +52,7 @@ const DetailObjective = () => {
                               <p><strong>Solution:</strong> We engaged in iterative development, employing agile methodologies to refine custom features based on user feedback. By prioritizing essential functionalities and using modular design principles, we ensured that the application could be easily updated and expanded in response to changing business requirements.</p>
                             </li>
                           </ol> 
-                        <h3>What we did</h3>
+                        <h2>What we did</h2>
                         /*
                             <strong>Apex Class for Client Data Management:</strong>
                                 <ul>
