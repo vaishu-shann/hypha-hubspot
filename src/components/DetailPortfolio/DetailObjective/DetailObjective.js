@@ -23,6 +23,17 @@ const DetailObjective = () => {
                             <li><strong>Manual Processes:</strong>:
                                 Many processes were manual and time-consuming, leading to potential errors and inefficiencies. This impacted the overall productivity of the teams and the speed at which they could respond to client needs.</li>
                         </ol>
+
+                        <p>How We Helped Overcome These Challenges:</p>
+                        
+                        <ol>
+                            <li><strong>Integrated Client Management System: </strong>:
+                            We developed a Salesforce application that centralized client data and integrated various service channels. This allowed advisors to access all relevant client information in one place, reducing response times and improving service quality.<br /><br /></li>
+                            <li><strong>Enhanced Data Visibility:</strong>:
+                            The new application facilitated data consolidation, providing advisors with a comprehensive view of client portfolios and interactions. This enabled more informed decision-making and personalized service offerings, enhancing client satisfaction.<br /><br /></li>
+                            <li><strong>Automated Workflows:</strong>:
+                            By automating key processes, we reduced manual effort and minimized errors. This improved operational efficiency, allowing the team to focus on higher-value tasks such as client engagement and strategic planning.</li>
+                        </ol>            
                     </div>
                 </div>
                 <div class="port-status-col">
