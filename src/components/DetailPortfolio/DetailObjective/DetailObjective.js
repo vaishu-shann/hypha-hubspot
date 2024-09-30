@@ -52,51 +52,51 @@ const DetailObjective = () => {
                               <p><strong>Solution:</strong> We engaged in iterative development, employing agile methodologies to refine custom features based on user feedback. By prioritizing essential functionalities and using modular design principles, we ensured that the application could be easily updated and expanded in response to changing business requirements.</p>
                             </li>
                           </ol> 
-                        <h2>What We Did</h2>
-                          <ol>
+                        <h3>What we did</h3>
+                        <ul>
                             <li><strong>Apex Class for Client Data Management:</strong>
-                              <ul>
-                                <li><strong>Apex Class 1:</strong> This class was designed to fetch specific client accounts and their associated information. It aggregated data from multiple sources, ensuring that advisors had access to comprehensive client profiles at their fingertips.</li>
-                                <li><strong>Apex Class 2:</strong> Implemented for automating case assignments, this class streamlined the process of routing client inquiries to the appropriate advisors based on predefined criteria, significantly reducing response times.</li>
-                              </ul>
+                                <ul>
+                                    <li>Apex Class 1: This class was designed to fetch specific client accounts and their associated information. It aggregated data from multiple sources, ensuring that advisors had access to comprehensive client profiles at their fingertips.</li>
+                                    <li>Apex Class 2: Implemented for automating case assignments, this class streamlined the process of routing client inquiries to the appropriate advisors based on predefined criteria, significantly reducing response times.</li>
+                                </ul>
                             </li>
-                            <br />
+                    
                             <li><strong>Automated Workflow Rules:</strong>
-                              <ul>
-                                <li>We set up workflow rules that automatically trigger notifications and updates when specific client actions occur, such as submitting a claim or requesting policy changes. This proactive approach enhanced communication between clients and advisors.</li>
-                              </ul>
+                                <ul>
+                                    <li>We set up workflow rules that automatically trigger notifications and updates when specific client actions occur, such as submitting a claim or requesting policy changes. This proactive approach enhanced communication between clients and advisors.</li>
+                                </ul>
                             </li>
-                            <br />
+                    
                             <li><strong>Lightning Web Components (LWC):</strong>
-                              <ul>
-                                <li>Developed user-friendly LWC components for the user interface, improving the overall experience for Sun Life advisors. These components enabled dynamic data display, allowing advisors to easily navigate through client information and manage tasks efficiently.</li>
-                              </ul>
+                                <ul>
+                                    <li>Developed user-friendly LWC components for the user interface, improving the overall experience for Sun Life advisors. These components enabled dynamic data display, allowing advisors to easily navigate through client information and manage tasks efficiently.</li>
+                                </ul>
                             </li>
-                            <br />
+                    
                             <li><strong>Custom Flows for Onboarding and Service Requests:</strong>
-                              <ul>
-                                <li>We created guided flows that simplified the onboarding process for new clients. These flows walked clients through the necessary steps to complete their applications, reducing the complexity of onboarding and ensuring that all required information was collected accurately.</li>
-                              </ul>
+                                <ul>
+                                    <li>Flows: We created guided flows that simplified the onboarding process for new clients. These flows walked clients through the necessary steps to complete their applications, reducing the complexity of onboarding and ensuring that all required information was collected accurately.</li>
+                                </ul>
                             </li>
-                            <br />
+                    
                             <li><strong>Dashboard and Reporting Features:</strong>
-                              <ul>
-                                <li>Implemented custom dashboards to provide real-time insights into client engagement, sales performance, and service request statuses. These dashboards enabled management to make informed decisions based on actionable data and trends.</li>
-                              </ul>
+                                <ul>
+                                    <li>Implemented custom dashboards to provide real-time insights into client engagement, sales performance, and service request statuses. These dashboards enabled management to make informed decisions based on actionable data and trends.</li>
+                                </ul>
                             </li>
-                            <br />
+                    
                             <li><strong>Integration with External Systems:</strong>
-                              <ul>
-                                <li>Established seamless integration with third-party systems to ensure that data from external sources, such as health management programs, could be incorporated into client profiles. This comprehensive view allowed advisors to provide more tailored advice based on a client's holistic wellness journey.</li>
-                              </ul>
+                                <ul>
+                                    <li>Established seamless integration with third-party systems to ensure that data from external sources, such as health management programs, could be incorporated into client profiles. This comprehensive view allowed advisors to provide more tailored advice based on a client's holistic wellness journey.</li>
+                                </ul>
                             </li>
-                            <br />
+                    
                             <li><strong>Training and Support:</strong>
-                              <ul>
-                                <li>Provided ongoing support and training for users to ensure they were comfortable navigating the new system. We set up a dedicated helpdesk for addressing any queries post-implementation, which further eased the transition to the new application.</li>
-                              </ul>
+                                <ul>
+                                    <li>Provided ongoing support and training for users to ensure they were comfortable navigating the new system. We set up a dedicated helpdesk for addressing any queries post-implementation, which further eased the transition to the new application.</li>
+                                </ul>
                             </li>
-                          </ol>                        
+                        </ul>          
                     </div>
                 </div>
                 <div class="port-status-col">
