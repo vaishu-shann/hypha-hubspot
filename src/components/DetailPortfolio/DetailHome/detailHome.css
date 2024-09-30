@@ -19,16 +19,29 @@
 
 .d-home-desc {
     color: #555555;
-    font-size: 16px; /* Adjusted for better readability */
-    line-height: 1.6; /* Added line-height */
+    font-size: 18px;
     font-style: normal;
     font-weight: normal;
-    text-align: left; /* Changed to left for bullet alignment */
+    text-align: center;
     padding: 0px 0px 120px 0px;
-    width: 90%; /* Adjusted width */
+    width: 70%;
     max-width: 100%;
     margin: 0 auto;
-    word-wrap: break-word; /* Ensures text wraps within the container */
+}
+
+.d-home-desc p {
+    display: inline-block;
+    margin: 10px 0;
+    overflow: hidden;
+    position: relative;
+    font-size: 18px; /* Ensure the correct font size */
+    height: auto;    /* Ensure height is not fixed */
+}
+
+.d-home-desc ul {
+    text-align: left; /* Align bullet points to the left */
+    margin: 10px 0;
+    padding-left: 20px; /* Add padding for bullet points */
 }
 
 .port-fit-img {
@@ -70,20 +83,11 @@
     margin-right: 8px;
 }
 
-p {
-    display: inline-block;
-    /* font-size: 36px; */
-    /* height: 86px; */
-    margin: 10px 0;
-    overflow: hidden;
-    position: relative;
-}
-
 @media (max-width: 768px) {
     .d-home-head {
         font-size: 38px;
     }
-    
+
     .d-home-desc {
         width: 98%;
     }
