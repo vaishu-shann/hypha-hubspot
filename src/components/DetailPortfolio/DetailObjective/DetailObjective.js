@@ -21,7 +21,7 @@ const DetailObjective = () => {
                             <li><strong>Data Silos:</strong>:
                                 The organization struggled with data being scattered across multiple systems, hindering the ability to obtain a holistic view of client portfolios and engagement history. This made it challenging for advisors to provide personalized advice and services.<br /><br /></li>
                             <li><strong>Manual Processes:</strong>:
-Many                             Many processes were manual and time-consuming, leading to potential errors and inefficiencies. This impacted the overall productivity of the teams and the speed at which they could respond to client needs.</li>
+                                Many processes were manual and time-consuming, leading to potential errors and inefficiencies. This impacted the overall productivity of the teams and the speed at which they could respond to client needs.</li>
                         </ol>
                     </div>
                 </div>
