@@ -13,15 +13,15 @@ const DetailObjective = () => {
                 <div class="port-objective-col">
                     <div class="port-objective">
                         <h2>Objective</h2>
-                        <p>The primary challenge facing Canidium was the inadequacy of its website to clearly and succinctly communicate what the company does, compounded by outdated user experience (UX) designs that hindered user engagement.</p>
-                        <p>Hypha HubSpot Development's goals were multifaceted:</p>
+                        <p>Challenges Encountered by Sun Life:</p>
+                        
                         <ol>
-                            <li><strong>Clear Communication of Identity</strong>:
-                                Redesign the website to more clearly articulate Canidium's services and value proposition, with an emphasis on modern UX optimizations to enhance user understanding and engagement.<br /><br /></li>
-                            <li><strong>Position as Industry Leader</strong>:
-                                Assert Canidium's authority in the fields of SPM, pricing, and CPQ, highlighting its extensive expertise across sales systems and software.<br /><br /></li>
-                            <li><strong>Modernization of Branding</strong>:
-                                Refresh Canidium's branding to brings its digital presence into the 2020s, incorporating modern design elements while retaining key aspects of the existing brand identity due to its prevalence in printed materials.</li>
+                            <li><strong>Inefficient Client Management:</strong>:
+                                Sun Life faced challenges in managing client interactions and service requests, leading to delays in response times and customer dissatisfaction. The existing systems lacked integration, making it difficult for advisors to access comprehensive client information..<br /><br /></li>
+                            <li><strong>Data Silos:</strong>:
+                                The organization struggled with data being scattered across multiple systems, hindering the ability to obtain a holistic view of client portfolios and engagement history. This made it challenging for advisors to provide personalized advice and services.<br /><br /></li>
+                            <li><strong>Manual Processes:</strong>:
+Many                             Many processes were manual and time-consuming, leading to potential errors and inefficiencies. This impacted the overall productivity of the teams and the speed at which they could respond to client needs.</li>
                         </ol>
                     </div>
                 </div>
