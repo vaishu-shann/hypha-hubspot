@@ -70,6 +70,15 @@
     margin-right: 8px;
 }
 
+p {
+    display: inline-block;
+    /* font-size: 36px; */
+    /* height: 86px; */
+    margin: 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+
 @media (max-width: 768px) {
     .d-home-head {
         font-size: 38px;
