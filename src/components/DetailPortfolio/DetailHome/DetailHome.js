@@ -1,6 +1,6 @@
-import React from 'react'
-import "./detailHome.css"
-import Detailbanner from "../../../assets/images/canidium-portfolio-feature.png"
+import React from 'react';
+import "./detailHome.css";
+import Detailbanner from "../../../assets/images/canidium-portfolio-feature.png";
 
 const DetailHome = () => {
   return (
@@ -29,10 +29,10 @@ const DetailHome = () => {
                 <li><strong>Disease-Prevention Programs:</strong> Strategies aimed at promoting healthy living and preventing illness.</li>
               </ul>
           </div>
+
         </div>
-        
         <div className='port-fit-img'>
-          <img src={Detailbanner} alt="Sun Life Banner" className='d-home-img' />
+          <img src={Detailbanner} alt="" className='d-home-img' />
           <div className='port-stat'>
             <div className="port-date">
               <h3 className="heading5">Launch Date</h3>
@@ -40,13 +40,13 @@ const DetailHome = () => {
             </div>
             <div className="port-status">
               <h3 className="heading5">Status</h3>
-              <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+              <div style={{display:'flex',flexDirection:'row', alignItems:'center'}}>
                 <span className='online-green'></span>
                 <div>Implementation</div>
               </div>
             </div>
           </div>
-          <hr style={{ margin: "60px auto", maxWidth: "100%", width: "1400px" }} />
+          <hr style={{margin: "60px auto",maxWidth: "100%",width: "1400px"}}></hr>
         </div>
       </div>
     </>
