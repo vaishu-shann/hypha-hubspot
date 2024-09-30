@@ -33,7 +33,25 @@ const DetailObjective = () => {
                             The new application facilitated data consolidation, providing advisors with a comprehensive view of client portfolios and interactions. This enabled more informed decision-making and personalized service offerings, enhancing client satisfaction.<br /><br /></li>
                             <li><strong>Automated Workflows:</strong>:
                             By automating key processes, we reduced manual effort and minimized errors. This improved operational efficiency, allowing the team to focus on higher-value tasks such as client engagement and strategic planning.</li>
-                        </ol>            
+                        </ol> 
+
+                        <h2>Challenges Encountered During Implementation</h2>
+                          <ol>
+                            <li><strong>User Adoption and Training:</strong>
+                              <p><strong>Challenge:</strong> One of the significant hurdles was ensuring that Sun Life advisors and staff adopted the new Salesforce application. Some users were accustomed to legacy systems and hesitant to change their workflows.</p>
+                              <p><strong>Solution:</strong> We conducted comprehensive training sessions and provided hands-on workshops tailored to different user groups. Additionally, we created user-friendly documentation and support materials to facilitate the transition. Regular feedback sessions were held to address concerns and adjust the application based on user input, ultimately leading to higher adoption rates.</p>
+                            </li>
+                            <br />
+                            <li><strong>Data Migration and Integration:</strong>
+                              <p><strong>Challenge:</strong> Migrating data from various existing systems into Salesforce was complex due to inconsistencies and the volume of data. Ensuring that all historical data was accurately transferred and integrated posed a significant risk to project timelines.</p>
+                              <p><strong>Solution:</strong> A detailed data mapping strategy was developed, and we employed Salesforce Data Loader for the migration process. Rigorous data cleansing was performed prior to migration to ensure accuracy. Post-migration, we conducted thorough testing and validation to confirm that all data was correctly integrated, ensuring a smooth transition for users.</p>
+                            </li>
+                            <br />
+                            <li><strong>Customization and Scalability Issues:</strong>
+                              <p><strong>Challenge:</strong> During the implementation, we encountered challenges related to customizing the Salesforce application to meet specific business needs while also ensuring the solution was scalable for future growth.</p>
+                              <p><strong>Solution:</strong> We engaged in iterative development, employing agile methodologies to refine custom features based on user feedback. By prioritizing essential functionalities and using modular design principles, we ensured that the application could be easily updated and expanded in response to changing business requirements.</p>
+                            </li>
+                          </ol>        
                     </div>
                 </div>
                 <div class="port-status-col">
