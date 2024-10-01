@@ -10,7 +10,7 @@ const HomeBanner = () => {
         <>
             <div className='homepage-banner'>
                 <div className='h-b-left'>
-                    <div className='sub-head heading4'>Plan. Innovate, Execute. Grow</div>
+                    <div className='sub-head heading4'>Plan. Innovate. Execute. Grow</div>
 
                     <div class="rotating-text-wrapper">
                         <h2>Build you Business</h2>

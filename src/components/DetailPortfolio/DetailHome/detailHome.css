@@ -1,21 +1,23 @@
-.d-home-banner{
-    padding:50px 10px;
+.d-home-banner {
+    padding: 50px 10px;
     max-width: 1400px;
     margin: auto;
 }
-.d-home-cont{
+
+.d-home-cont {
     padding-top: 100px;
 }
-.d-home-head{
+
+.d-home-head {
     font-size: 80px;
     font-weight: 900;
     color: #0B3954;
     margin-bottom: 24px;
     text-transform: uppercase;
     text-align: center;
-
 }
-.d-home-desc{
+
+.d-home-desc {
     color: #555555;
     font-size: 18px;
     font-style: normal;
@@ -25,19 +27,35 @@
     width: 70%;
     max-width: 100%;
     margin: 0 auto;
-
 }
-.port-fit-img{
+
+.d-home-desc p {
+    display: inline-block;
+    margin: 10px 0;
+    overflow: hidden;
+    position: relative;
+    font-size: 18px; /* Ensure the correct font size */
+    height: auto;    /* Ensure height is not fixed */
+}
+
+.d-home-desc ul {
+    text-align: left; /* Align bullet points to the left */
+    margin: 10px 0;
+    padding-left: 20px; /* Add padding for bullet points */
+}
+
+.port-fit-img {
     margin: 0 auto;
     max-width: 100%;
-    /* width: 1600px; */
     overflow: hidden;
 }
-.d-home-img{
+
+.d-home-img {
     max-width: 100%;
     width: 100%;
     transform: rotate(357deg) scale(1.1);
 }
+
 .port-stat {
     grid-gap: 20px;
     display: grid;
@@ -47,6 +65,7 @@
     width: 1280px;
     padding-top: 150px;
 }
+
 .heading5 {
     font-size: 24px;
     line-height: 1 !important;
@@ -54,22 +73,22 @@
     margin-bottom: 24px;
     font-weight: 600;
 }
-.online-green{
+
+.online-green {
     width: 10px;
     height: 10px;
     background-color: green;
-    border-radius:50% ;
+    border-radius: 50%;
     margin-top: 8px;
     margin-right: 8px;
 }
 
-
 @media (max-width: 768px) {
-    .d-home-head{
+    .d-home-head {
         font-size: 38px;
-   
-    } 
-    .d-home-desc{
+    }
+
+    .d-home-desc {
         width: 98%;
     }
 }

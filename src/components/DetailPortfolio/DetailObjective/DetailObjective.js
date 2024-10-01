@@ -13,16 +13,90 @@ const DetailObjective = () => {
                 <div class="port-objective-col">
                     <div class="port-objective">
                         <h2>Objective</h2>
-                        <p>The primary challenge facing Canidium was the inadequacy of its website to clearly and succinctly communicate what the company does, compounded by outdated user experience (UX) designs that hindered user engagement.</p>
-                        <p>Hypha HubSpot Development's goals were multifaceted:</p>
+                        <p>Challenges Encountered by Sun Life:</p>
+                        
                         <ol>
-                            <li><strong>Clear Communication of Identity</strong>:
-                                Redesign the website to more clearly articulate Canidium's services and value proposition, with an emphasis on modern UX optimizations to enhance user understanding and engagement.<br /><br /></li>
-                            <li><strong>Position as Industry Leader</strong>:
-                                Assert Canidium's authority in the fields of SPM, pricing, and CPQ, highlighting its extensive expertise across sales systems and software.<br /><br /></li>
-                            <li><strong>Modernization of Branding</strong>:
-                                Refresh Canidium's branding to brings its digital presence into the 2020s, incorporating modern design elements while retaining key aspects of the existing brand identity due to its prevalence in printed materials.</li>
+                            <li><strong>Inefficient Client Management:</strong>:
+                                Sun Life faced challenges in managing client interactions and service requests, leading to delays in response times and customer dissatisfaction. The existing systems lacked integration, making it difficult for advisors to access comprehensive client information..<br /><br /></li>
+                            <li><strong>Data Silos:</strong>:
+                                The organization struggled with data being scattered across multiple systems, hindering the ability to obtain a holistic view of client portfolios and engagement history. This made it challenging for advisors to provide personalized advice and services.<br /><br /></li>
+                            <li><strong>Manual Processes:</strong>:
+                                Many processes were manual and time-consuming, leading to potential errors and inefficiencies. This impacted the overall productivity of the teams and the speed at which they could respond to client needs.</li>
                         </ol>
+
+                        <p>How We Helped Overcome These Challenges:</p>
+                        
+                        <ol>
+                            <li><strong>Integrated Client Management System: </strong>:
+                            We developed a Salesforce application that centralized client data and integrated various service channels. This allowed advisors to access all relevant client information in one place, reducing response times and improving service quality.<br /><br /></li>
+                            <li><strong>Enhanced Data Visibility:</strong>:
+                            The new application facilitated data consolidation, providing advisors with a comprehensive view of client portfolios and interactions. This enabled more informed decision-making and personalized service offerings, enhancing client satisfaction.<br /><br /></li>
+                            <li><strong>Automated Workflows:</strong>:
+                            By automating key processes, we reduced manual effort and minimized errors. This improved operational efficiency, allowing the team to focus on higher-value tasks such as client engagement and strategic planning.</li>
+                        </ol> 
+
+                        <h2>Challenges Encountered During Implementation</h2>
+                          <ol>
+                            <li><strong>User Adoption and Training:</strong>
+                              <p><strong>Challenge:</strong> One of the significant hurdles was ensuring that Sun Life advisors and staff adopted the new Salesforce application. Some users were accustomed to legacy systems and hesitant to change their workflows.</p>
+                              <p><strong>Solution:</strong> We conducted comprehensive training sessions and provided hands-on workshops tailored to different user groups. Additionally, we created user-friendly documentation and support materials to facilitate the transition. Regular feedback sessions were held to address concerns and adjust the application based on user input, ultimately leading to higher adoption rates.</p>
+                            </li>
+                            <br />
+                            <li><strong>Data Migration and Integration:</strong>
+                              <p><strong>Challenge:</strong> Migrating data from various existing systems into Salesforce was complex due to inconsistencies and the volume of data. Ensuring that all historical data was accurately transferred and integrated posed a significant risk to project timelines.</p>
+                              <p><strong>Solution:</strong> A detailed data mapping strategy was developed, and we employed Salesforce Data Loader for the migration process. Rigorous data cleansing was performed prior to migration to ensure accuracy. Post-migration, we conducted thorough testing and validation to confirm that all data was correctly integrated, ensuring a smooth transition for users.</p>
+                            </li>
+                            <br />
+                            <li><strong>Customization and Scalability Issues:</strong>
+                              <p><strong>Challenge:</strong> During the implementation, we encountered challenges related to customizing the Salesforce application to meet specific business needs while also ensuring the solution was scalable for future growth.</p>
+                              <p><strong>Solution:</strong> We engaged in iterative development, employing agile methodologies to refine custom features based on user feedback. By prioritizing essential functionalities and using modular design principles, we ensured that the application could be easily updated and expanded in response to changing business requirements.</p>
+                            </li>
+                          </ol> 
+                        <h2>What we did</h2>
+                        {/*
+                            <strong>Apex Class for Client Data Management:</strong>
+                                <ul>
+                                    <li>Apex Class 1: This class was designed to fetch specific client accounts and their associated information. It aggregated data from multiple sources, ensuring that advisors had access to comprehensive client profiles at their fingertips.</li>
+                                    <li>Apex Class 2: Implemented for automating case assignments, this class streamlined the process of routing client inquiries to the appropriate advisors based on predefined criteria, significantly reducing response times.</li>
+                                </ul>
+                            
+                    
+                            <strong>Automated Workflow Rules:</strong>
+                                <ul>
+                                    <li>We set up workflow rules that automatically trigger notifications and updates when specific client actions occur, such as submitting a claim or requesting policy changes. This proactive approach enhanced communication between clients and advisors.</li>
+                                </ul>
+                            
+                    
+                            <strong>Lightning Web Components (LWC):</strong>
+                                <ul>
+                                    <li>Developed user-friendly LWC components for the user interface, improving the overall experience for Sun Life advisors. These components enabled dynamic data display, allowing advisors to easily navigate through client information and manage tasks efficiently.</li>
+                                </ul>
+                            
+                    
+                            <strong>Custom Flows for Onboarding and Service Requests:</strong>
+                                <ul>
+                                    <li>Flows: We created guided flows that simplified the onboarding process for new clients. These flows walked clients through the necessary steps to complete their applications, reducing the complexity of onboarding and ensuring that all required information was collected accurately.</li>
+                                </ul>
+                            
+                    
+                            <strong>Dashboard and Reporting Features:</strong>
+                                <ul>
+                                    <li>Implemented custom dashboards to provide real-time insights into client engagement, sales performance, and service request statuses. These dashboards enabled management to make informed decisions based on actionable data and trends.</li>
+                                </ul>
+                            
+                    
+                            <strong>Integration with External Systems:</strong>
+                                <ul>
+                                    <li>Established seamless integration with third-party systems to ensure that data from external sources, such as health management programs, could be incorporated into client profiles. This comprehensive view allowed advisors to provide more tailored advice based on a client's holistic wellness journey.</li>
+                                </ul>
+                            
+                    
+                            <strong>Training and Support:</strong>
+                                <ul>
+                                    <li>Provided ongoing support and training for users to ensure they were comfortable navigating the new system. We set up a dedicated helpdesk for addressing any queries post-implementation, which further eased the transition to the new application.</li>
+                                </ul>
+                            
+                                */}
                     </div>
                 </div>
                 <div class="port-status-col">
